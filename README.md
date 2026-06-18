@@ -5,7 +5,7 @@ Prompt engineering library + templates for generating optimized product listings
 
 > A complete portfolio project demonstrating **AI integration, prompt engineering, content creation, and data organization** for maximizing product visibility and conversions across Amazon, Flipkart, and Meesho.
 
----
+
 
 ## 📋 Project Overview
 
@@ -24,11 +24,11 @@ This methodology is used by:
 - **Content teams** needing to generate listings quickly without sacrificing quality
 - **Product managers** optimizing listings for A/B testing
 
----
+
 
 ## 📂 Project Structure
 
-```
+
 AI-Powered-E-Commerce-Listing-Generator/
 ├── 1-Prompt-Engineering-Library/
 │   ├── amazon_prompts.md
@@ -61,9 +61,7 @@ AI-Powered-E-Commerce-Listing-Generator/
 │   └── design_specifications.md
 │
 └── README.md (this file)
-```
 
----
 
 ## 🧠 Prompt Engineering Methodology
 
@@ -80,41 +78,41 @@ Each e-commerce platform has **different user behavior patterns** and **algorith
 ### Prompt Engineering Principles Used
 
 #### 1. **Constraint-Based Design**
-```
+
 Wrong: "Write a product description"
 Right: "Write 500-700 word description for Amazon A+ content that includes keywords naturally, addresses 3 specific pain points, and includes social proof"
-```
+
 **Why it works:** Constraints force clarity. Character/word limits aren't restrictions—they're features that make output better.
 
 #### 2. **Role-Based Prompting**
-```
+
 Prompt: "You are an Amazon SEO expert. Your goal is to rank this product for high-volume search terms while maintaining conversion-focused messaging..."
-```
+
 **Why it works:** Establishing an expert persona makes the AI adopt that expertise's conventions and priorities.
 
 #### 3. **Example-Based Learning (Few-Shot)**
-```
+
 Example: "Stainless Steel Water Bottle 1 Litre - Keeps Hot 12 Hours Cold 24 Hours - Leak-Proof by Brand X"
 Now create similar title for [new product]...
-```
+
 **Why it works:** Examples show the AI the exact style, format, and structure you want.
 
 #### 4. **Negative Specification**
-```
+
 "Don't use: ALL CAPS, special characters, repetition, generic phrases like 'amazing' or 'best'"
-```
+
 **Why it works:** Explicitly telling the AI what NOT to do prevents common mistakes.
 
 #### 5. **Benefit-First Framing**
-```
+
 "Lead with what the customer GAINS, not what the product IS"
 Example:
 ❌ "Stainless steel double-walled construction with vacuum insulation"
 ✅ "Keeps your drinks hot for 12 hours—no more cold tea at noon"
-```
+
 **Why it works:** Customers buy outcomes, not features. This framework ensures the prompt teaches the AI that distinction.
 
----
+
 
 ## 🎯 Platform-Specific Strategies
 
@@ -144,7 +142,7 @@ Example:
 - Detailed descriptions = higher perceived value = fewer returns
 
 **Example Result:**
-```
+
 Title (18 chars + keyword optimization):
 "Stainless Steel Water Bottle 1 Litre - Keeps Hot 12 Hours..."
 
@@ -153,9 +151,8 @@ Bullets (5 benefit statements, each 150-200 chars):
 
 Description (600 words):
 Problem → Frustration → Solution → Why This Product → Social Proof
-```
 
----
+
 
 ### FLIPKART: "The Value Marketplace"
 
@@ -185,7 +182,7 @@ Problem → Frustration → Solution → Why This Product → Social Proof
 - Specs matter more (easier comparison shopping)
 
 **Example Result:**
-```
+
 Title (76 chars max, value-forward):
 "Portable Wireless Bluetooth Speaker 5W - 10 Hour Battery IPX5..."
 
@@ -196,9 +193,8 @@ Highlights (4-5 bullets, 100 chars each):
 
 Description (300-400 words, spec-heavy):
 Product → Why Choose → Specifications → Use Cases → Flipkart Benefits
-```
 
----
+
 
 ### MEESHO: "The Reseller Network"
 
@@ -227,7 +223,7 @@ Product → Why Choose → Specifications → Use Cases → Flipkart Benefits
 - "Trending" status = confidence to stock inventory
 
 **Example Result:**
-```
+
 Title (88 chars max, reseller-focused):
 "Wireless Bluetooth Speaker Portable 10Hr Battery IPX5 Waterproof 5 Colors Wholesale"
 
@@ -235,36 +231,32 @@ Description (250 words, profit-focused):
 Wholesale price → Recommended retail → Your profit margin
 Selling advantages → Why resellers love this
 Specifications → Logistics info → Stocking tips
-```
 
----
 
 ## 📊 Prompt Performance Metrics
 
 ### Why These Specific Prompts Rank High
 
 #### Prompt #1: Amazon Title Generator
-- **Keyword inclusion:** ✅ Primary keyword at start
-- **Character optimization:** ✅ 112/200 used (56% utilization)
-- **Benefit clarity:** ✅ "Keeps hot/cold" (outcome-focused)
-- **Trust signals:** ✅ Brand mention, "leak-proof"
+- **Keyword inclusion:** Primary keyword at start
+- **Character optimization:** 112/200 used (56% utilization)
+- **Benefit clarity:** "Keeps hot/cold" (outcome-focused)
+- **Trust signals:** Brand mention, "leak-proof"
 - **Expected CTR improvement:** 25-40% (based on standard A/B tests)
 
 #### Prompt #5: Flipkart Title Generator
-- **Scannability:** ✅ Short, key info first
-- **Value communication:** ✅ Feature + benefit pairs
-- **Brand positioning:** ✅ Brand early for trust
-- **Character optimization:** ✅ 76/150 (50% utilization, leaves room for personalization)
+- **Scannability:** Short, key info first
+- **Value communication:** Feature + benefit pairs
+- **Brand positioning:** Brand early for trust
+- **Character optimization:** 76/150 (50% utilization, leaves room for personalization)
 - **Expected CTR improvement:** 15-25%
 
 #### Prompt #9: Meesho Title Generator
-- **Reseller clarity:** ✅ Product + quantity (variations available)
-- **Profit framing:** ✅ "Wholesale" signals margin
-- **Keyword density:** ✅ Main keywords + variants
-- **Character optimization:** ✅ 88/100 (leaves 12 chars buffer)
+- **Reseller clarity:** Product + quantity (variations available)
+- **Profit framing:** "Wholesale" signals margin
+- **Keyword density:** Main keywords + variants
+- **Character optimization:** 88/100 (leaves 12 chars buffer)
 - **Expected listing speed:** 30-50% faster setup for resellers
-
----
 
 
 **Workflow:**
@@ -288,9 +280,8 @@ Platform: Amazon
 6. Make 1-2 tweaks if needed
 7. Ready to publish
 Total time: 5 minutes vs. 45 minutes doing it manually
-```
 
----
+
 
 ## 🎨 Canva Design Integration
 
@@ -328,7 +319,6 @@ If you create these 5-6 designs in Canva:
    - Include: Process graphic or key stat
    - Purpose: Portfolio promotion
 
----
 
 ## 📈 Business Impact & Real-World Results
 
@@ -353,7 +343,7 @@ Using this prompt engineering system, e-commerce businesses report:
 4. **Data-driven:** Template tracks what works
 5. **Speed to market:** Get products live in days, not weeks
 
----
+
 
 ### ✅ Technical Skills Demonstrated
 
@@ -378,7 +368,6 @@ Using this prompt engineering system, e-commerce businesses report:
    - "Built-in keyword density calculator ensures SEO optimization"
 
 
----
 
 ### Tools Used in This Project
 - Claude / ChatGPT (AI for prompt execution)
@@ -386,7 +375,6 @@ Using this prompt engineering system, e-commerce businesses report:
 - Canva (Design assets)
 - GitHub (Portfolio showcase)
 
----
 
 ## 📄 License
 
@@ -396,7 +384,6 @@ This project is open-source and meant for portfolio/learning purposes. Feel free
 - ✅ Share the methodology with others
 - ✅ Build on top of these templates
 
----
 
 ## 👨‍💼 Author Notes
 
@@ -406,13 +393,12 @@ Scaling e-commerce listings is one of the biggest bottlenecks for sellers. Manua
 **Key Insight:**
 The difference between a bad e-commerce listing and a great one isn't creativity—it's **understanding the algorithm and the user psychology of each platform**. This project proves that by engineering the right prompts, AI can generate listings that match professional quality while being 85% faster.
 
----
+
 
 **Last Updated:** June 2026  
 **Version:** 1.0  
 **Status:** Production Ready for Portfolio
 
----
 
 **Want to use this on your own projects?**
 Copy the prompts, modify the [BRACKET] fields, and generate listings instantly. The methodology works across any e-commerce platform and any product category.
